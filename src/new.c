@@ -11,7 +11,7 @@ void main(){
     printf("Now change 3rd place 5\n");
     short newArray = set(3, 5, array);
     int m = getElement(3, newArray);
-    printf("new array's 3rd element is %d\n");
+    printf("new array's 3rd element is %d\n",m);
     return 0;
 }
 
@@ -23,9 +23,9 @@ short set(int pt, int setNum, short array){
 }
 
 int pow(int p, int n){
-    int powed;
+    int powed = p;
     for(int i = 0; i < n; i++){
-        powed = p * p;
+        powed = powed * p;
     }
     return powed;
 }
