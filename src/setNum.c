@@ -1,6 +1,6 @@
-short set(int pt, setNum, short array){
-    short offset = setnum << 3*(pt - 1);
-    short bottomPadding = pow(2, (3 * setnum - 2));
+short set(int pt,int  setNum, short array){
+    short offset = setNum << 3*(pt - 1);
+    short bottomPadding = pow(2, (3 * setNum - 2));
     short headPadding = pow(2, (sizeof(array) * (8 - pt * 3) - 1));
     short newArray = offset + bottomPadding + headPadding;
 }
