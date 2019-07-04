@@ -11,7 +11,7 @@ void main(){
     printf("Now change 3rd place 5\n");
     short newArray = set(3, 5, array);
     int m = getElement(3, newArray);
-    printf("new array's 3rd element is %d\n",m);
+    printf("new array's 3rd element is %d\n", m);
     return 0;
 }
 
