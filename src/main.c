@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 #include "setNum.h"
 #include "getElement.h"
 
@@ -10,3 +11,4 @@ void main(){
     short newArray = set(3, 5, array);
     int m = getElement(3, newArray);
     printf("new array's 3rd element is %d\n", m);
+}
