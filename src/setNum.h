@@ -5,7 +5,7 @@ short set(int pt,int  setNum, short array){
     short newArray = offset + bottomPadding + headPadding;
 }
 
-int pow(int p,n){
+int pow(int p, int n){
     int powed;
     for(int i = 0; i < n; i++){
         powed = p * p;
