@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#include "setNum.h"
+#include "setElement.h"
 #include "getElement.h"
 
 void main(){
@@ -8,7 +8,7 @@ void main(){
     int a = getElement(3, array);
     printf("This array's 3rd element is %d\n",a);
     printf("Now change 3rd place 5\n");
-    short newArray = set(3, 5, array);
-    int m = getElement(3, newArray);
+    array = SET(3, 5, array);
+    int m = getElement(3, array);
     printf("new array's 3rd element is %d\n", m);
 }
